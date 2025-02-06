@@ -18,6 +18,7 @@ class m250206_190735_create_searchindex_table extends Migration
             'text' => $this->string(255),
             'page_name' => $this->string(255),
             'page_alias' => $this->string(255),
+
         ]);
     }
 
