@@ -45,7 +45,7 @@ class City extends \yii\db\ActiveRecord
     {
         return [
             [['name', 'alias'], 'required'],
-            [['params', 'map', 'district', 'street', 'metro', 'shortcode_remont', 'tag_header', 'tag_body', 'robots_txt'], 'string'],
+            [['params', 'map', 'district', 'street', 'metro', 'shortcode_remont', 'tag_header', 'tag_body', 'robots_txt','metro'], 'string'],
             [['price_type', 'number', 'visible'], 'default', 'value' => null],
             [['price_type', 'number', 'visible'], 'integer'],
             [['name', 'alias', 'address', 'front_email', 'phone', 'wokrtime', 'back_email'], 'string', 'max' => 255],

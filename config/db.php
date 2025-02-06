@@ -4,11 +4,10 @@
 
 return [
     'class' => 'yii\db\Connection',
-    'dsn' => 'mysql:host=127.0.0.1;dbname=masterabyta',
+    'dsn' => 'mysql:host=localhost;dbname=masterabyta',
     'username' => 'root',
-    'password' => 'root',
+    'password' => '',
     'charset' => 'utf8',
-    'tablePrefix' => 'u14s33winravwxok4_',
 
 ];
 

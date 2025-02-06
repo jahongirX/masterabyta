@@ -23,6 +23,7 @@ class AppAsset extends AssetBundle
         'css/admin/bootstrap-datepicker.css',
         'css/admin/wickedpicker.min.css?1',
         'css/admin/site.css',
+        'css/admin/custom.css',
     ];
     public $js = [
         'js/admin/bootstrap-datepicker.js',
