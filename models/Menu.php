@@ -301,7 +301,11 @@ class Menu extends ActiveRecord
         return false;
     }
 
-
-
+    public static function getActiveMenus(): array {
+        return Menu::find()
+            ->where(['visible' => 1])
+            ->andWhere(['IS NOT', 'header', null])
+            ->all();
+    }
 
 }
