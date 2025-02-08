@@ -34,17 +34,17 @@
             <div class="block-usl-title">Бесплатные услуги</div>
             <div class="usl-list">
                 <div class="usl-list-item">
-                    <div class="usl-list-item-icon"><img decoding="async" src="libs/img/usl1.png"></div>
+                    <div class="usl-list-item-icon"><img decoding="async" src="/libs/img/usl1.png"></div>
                     <div class="usl-item-text"><b>Выезд</b> специалиста<br /> на работы</div>
                     </p>
                 </div>
                 <div class="usl-list-item">
-                    <div class="usl-list-item-icon"><img decoding="async" src="libs/img/usl2.png"></div>
+                    <div class="usl-list-item-icon"><img decoding="async" src="/libs/img/usl2.png"></div>
                     <div class="usl-item-text"><b>Консультации</b><br /> по работам</div>
                     </p>
                 </div>
                 <div class="usl-list-item">
-                    <div class="usl-list-item-icon"><img decoding="async" src="libs/img/usl3.png"></div>
+                    <div class="usl-list-item-icon"><img decoding="async" src="/libs/img/usl3.png"></div>
                     <div class="usl-item-text"><b>Гарантия</b> до 1 года</div>
                     </p>
                 </div>

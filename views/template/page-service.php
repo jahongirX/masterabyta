@@ -49,13 +49,7 @@ $this->params['breadcrumbs'][] = Page::getTitle();
             <?php if (!empty($pageContent)): ?>
                 <div><?= $pageContent ?></div>
             <?php endif; ?>
-
-
-            <?php require_once __DIR__.'/../layouts/include/leadback-price.php'; ?>
-            <?php require_once __DIR__.'/../layouts/include/usluga-bottom.php'; ?>
-            <?php require_once __DIR__.'/../layouts/include/how-we-work.php'; ?>
-            <?php require_once __DIR__.'/../layouts/include/ulicy.php'; ?>
-            <?php require_once __DIR__.'/../layouts/include/leadback-2.php'; ?>
+                <?=\app\widgets\AllWidgets::widget()?>
 
         </div>
     </div>

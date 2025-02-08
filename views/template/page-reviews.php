@@ -34,7 +34,7 @@ $mastersArr = CustomHelper::customMultiParamArray($mastersArr, 'id');
 
 ?>
 
-<?php require_once __DIR__.'/../layouts/include/banner.php'; ?>
+<?=\app\widgets\Zastavka::widget() ?>
 
 <div class="container content">
     <div class="row">

@@ -7,7 +7,7 @@
             сроком действия до 1 года.</p>
         <h2>Служба ремонта «муж на час»</h2>
         <p><img fetchpriority="high" decoding="async" class="alignright wp-image-288 size-medium"
-                src="libs/uploads/2018/08/%d0%bc%d1%83%d0%b6-%d0%bd%d0%b0-%d1%87%d0%b0%d1%81-300x228.jpg"
+                src="/libs/uploads/2018/08/%d0%bc%d1%83%d0%b6-%d0%bd%d0%b0-%d1%87%d0%b0%d1%81-300x228.jpg"
                 alt="Муж на час" width="300" height="228" /></p>
         <p>Обращаясь к нам, вы можете рассчитывать на доступные цены и высокое качество сервиса. Наши сотрудники умеют
             все и могут:</p>
@@ -31,7 +31,7 @@
         <div class="howpay">
             <div class="howpay-item">
                 <div class="howpay-item-inner">
-                    <div class="howpay-item-icon"><img decoding="async" src="libs/res/howpay1.png"></div>
+                    <div class="howpay-item-icon"><img decoding="async" src="/libs/res/howpay1.png"></div>
                     <div class="howpay-item-text">Наличными<br /> мастеру</div>
                     </p>
                 </div>
@@ -39,7 +39,7 @@
             </div>
             <div class="howpay-item">
                 <div class="howpay-item-inner">
-                    <div class="howpay-item-icon"><img decoding="async" src="libs/res/howpay2.png"></div>
+                    <div class="howpay-item-icon"><img decoding="async" src="/libs/res/howpay2.png"></div>
                     <div class="howpay-item-text">Переводом<br /> на банковскую карту</div>
                     </p>
                 </div>
@@ -47,7 +47,7 @@
             </div>
             <div class="howpay-item">
                 <div class="howpay-item-inner">
-                    <div class="howpay-item-icon"><img decoding="async" src="libs/res/howpay3.png"></div>
+                    <div class="howpay-item-icon"><img decoding="async" src="/libs/res/howpay3.png"></div>
                     <div class="howpay-item-text">По безналичному<br /> расчету</div>
                     </p>
                 </div>

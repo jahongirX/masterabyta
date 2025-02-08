@@ -2,7 +2,7 @@
     <div class="wrap">
         <div class="nenashli-inner">
             <div class="nenashli-left">
-                <div class="nenashli-pic"><img src="libs/img/nenashli.png"></div>
+                <div class="nenashli-pic"><img src="/libs/img/nenashli.png"></div>
             </div>
             <div class="nenashli-center">
                 <div class="nenashli-title">Не нашли нужную услугу?</div>

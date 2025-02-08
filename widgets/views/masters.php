@@ -31,7 +31,7 @@
                 </div>
                 <div class="masters-slide">
                     <div class="masters-slide-inner">
-                        <div class="masters-slide-photo"><img src="libs/uploads/2019/10/Aleksandr-e1571811857902.jpg">
+                        <div class="masters-slide-photo"><img src="/libs/uploads/2019/10/Aleksandr-e1571811857902.jpg">
                         </div>
                         <div class="masters-slide-name">Александр</div>
                         <div class="masters-slide-occupation">Мастер-универсал</div>

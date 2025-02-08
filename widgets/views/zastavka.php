@@ -4,7 +4,7 @@
         <div class="zastavka-inner">
             <div class="zastavka-left">
                 <div class="zastavka-pic">
-                    <img src="libs/uploads/2020/03/bg-master.png">
+                    <img src="/libs/uploads/2020/03/bg-master.png">
                 </div>
             </div>
             <div class="zastavka-right">
@@ -19,19 +19,19 @@
                     <div class="zastavka-right-bottom-left">
                         <div class="zastavka-items">
                             <div class="zastavka-item">
-                                <div class="zastavka-item-icon"><img src="libs/img/zas1.png"></div>
+                                <div class="zastavka-item-icon"><img src="/libs/img/zas1.png"></div>
                                 <div class="zastavka-item-text">Быстро! Бесплатный приезд<br> мастера от 30 минут!</div>
                             </div>
                             <div class="zastavka-item">
-                                <div class="zastavka-item-icon"><img src="libs/img/zas2.png"></div>
+                                <div class="zastavka-item-icon"><img src="/libs/img/zas2.png"></div>
                                 <div class="zastavka-item-text">Мастера заключают<br> договор и дают гарантию!</div>
                             </div>
                             <div class="zastavka-item">
-                                <div class="zastavka-item-icon"><img src="libs/img/zas3.png"></div>
+                                <div class="zastavka-item-icon"><img src="/libs/img/zas3.png"></div>
                                 <div class="zastavka-item-text">Оплата после выполнения<br> и приема работ.</div>
                             </div>
                             <div class="zastavka-item">
-                                <div class="zastavka-item-icon"><img src="libs/img/zas4.png"></div>
+                                <div class="zastavka-item-icon"><img src="/libs/img/zas4.png"></div>
                                 <div class="zastavka-item-text">Скидка до 15%<br> при заказе через сайт!</div>
                             </div>
                         </div>
@@ -108,28 +108,28 @@
     <div class="wrap">
         <div class="after-intro-inner">
             <div class="after-intro-item">
-                <div class="after-intro-item-icon"><img src="libs/img/intro-r.png"></div>
+                <div class="after-intro-item-icon"><img src="/libs/img/intro-r.png"></div>
                 <div class="after-intro-item-text">
                     <b>16 лет</b>
                     <span>опыт работы</span>
                 </div>
             </div>
             <div class="after-intro-item">
-                <div class="after-intro-item-icon"><img src="libs/img/intro-r.png"></div>
+                <div class="after-intro-item-icon"><img src="/libs/img/intro-r.png"></div>
                 <div class="after-intro-item-text">
                     <b>более 200</b>
                     <span>опытных мастеров</span>
                 </div>
             </div>
             <div class="after-intro-item">
-                <div class="after-intro-item-icon"><img src="libs/img/intro-r.png"></div>
+                <div class="after-intro-item-icon"><img src="/libs/img/intro-r.png"></div>
                 <div class="after-intro-item-text">
                     <b>более 2000</b>
                     <span>заказов в месяц</span>
                 </div>
             </div>
             <div class="after-intro-item">
-                <div class="after-intro-item-icon"><img src="libs/img/intro-r.png"></div>
+                <div class="after-intro-item-icon"><img src="/libs/img/intro-r.png"></div>
                 <div class="after-intro-item-text">
                     <b>более 150 000</b>
                     <span>довольных клиентов</span>
