@@ -35,6 +35,7 @@ class Searchindex extends \yii\db\ActiveRecord
         return [
             [['page_id'], 'required'],
             [['page_id'], 'integer'],
+            [['page_visible'],'safe'],
             [['text'], 'string'],
             [['page_name', 'page_alias'], 'string', 'max' => 255],
         ];

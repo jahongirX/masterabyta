@@ -64,9 +64,9 @@ class Page extends \yii\db\ActiveRecord
     {
         return [
             [['name', 'template', 'permalink'], 'required'],
-            [['parent', 'template', 'content_two_title_on', 'content_two_on', 'skryt_na_poddomene', 'sh_pricerow', 'banner_id', 'sidebar_visible', 'block_leadback_price_visible', 'block_masters_visible', 'block_reviews_visible', 'block_benefits_visible', 'block_how_we_work_visible', 'block_ulicy_visible', 'block_districts_visible', 'block_leadback_visible', 'visible', 'date_create', 'lastmod'], 'default', 'value' => null],
+            [['parent', 'template', 'content_two_title_on', 'content_two_on', 'content_three_on' , 'skryt_na_poddomene', 'sh_pricerow', 'banner_id', 'sidebar_visible', 'block_leadback_price_visible', 'block_masters_visible', 'block_reviews_visible', 'block_benefits_visible', 'block_how_we_work_visible', 'block_ulicy_visible', 'block_districts_visible', 'block_leadback_visible', 'visible', 'date_create', 'lastmod'], 'default', 'value' => null],
             [['parent', 'template', 'content_two_title_on', 'content_two_on', 'skryt_na_poddomene', 'sh_pricerow', 'banner_id', 'sidebar_visible', 'block_leadback_price_visible', 'block_masters_visible', 'block_reviews_visible', 'block_benefits_visible', 'block_how_we_work_visible', 'block_ulicy_visible', 'block_districts_visible', 'block_leadback_visible', 'visible'], 'integer'],
-            [['tag_header', 'tag_body', 'content', 'content_aside', 'content_two', 'content_two_aside', 'customprice', 'table', 'after_table', 'block_how_we_work_4_text'], 'string'],
+            [['tag_header', 'tag_body', 'content', 'content_aside', 'content_two' , 'content_three' , 'content_two_aside', 'customprice', 'table', 'after_table', 'block_how_we_work_4_text'], 'string'],
             [['name', 'permalink', 'redirect', 'title', 'description', 'image', 'content_two_title', 'sidebar_menu', 'block_how_we_work_4_title'], 'string', 'max' => 255],
             [['date_create', 'lastmod'], 'safe'],
             [['city'], 'safe'],

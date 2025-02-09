@@ -322,7 +322,7 @@ class Page extends ActiveRecord
                 if (!empty(Yii::$app->params['page']['content'])) {
                     $content = Yii::$app->params['page']['content'];
                     if (Yii::$app->params['page']['content_aside']) {
-                        $content = Yii::$app->params['page']['content_aside'] . $content;
+//                        $content = Yii::$app->params['page']['content_aside'] . $content;
                     }
                 }
             } else {
@@ -330,14 +330,14 @@ class Page extends ActiveRecord
                     if (!empty(Yii::$app->params['page']['content_two'])) {
                         $content = Yii::$app->params['page']['content_two'];
                         if (Yii::$app->params['page']['content_two_aside']) {
-                            $content = Yii::$app->params['page']['content_two_aside'] . $content;
+//                            $content = Yii::$app->params['page']['content_two_aside'] . $content;
                         }
                     }
                 } else {
                     if (!empty(Yii::$app->params['page']['content'])) {
                         $content = Yii::$app->params['page']['content'];
                         if (Yii::$app->params['page']['content_aside']) {
-                            $content = Yii::$app->params['page']['content_aside'] . $content;
+//                            $content = Yii::$app->params['page']['content_aside'] . $content;
                         }
                     }
                 }

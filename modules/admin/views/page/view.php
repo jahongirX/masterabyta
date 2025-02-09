@@ -94,6 +94,11 @@ $this->params['breadcrumbs'][] = $this->title;
                 'format' => 'raw',
             ],
             [
+                'attribute' => 'content_three',
+                'value' => \app\helpers\CustomHelper::custom_longtext_collapsed($model->content_three, 550),
+                'format' => 'raw',
+            ],
+            [
                 'attribute' => 'city',
                 'value' => \app\helpers\CustomHelper::custom_array_cities($GLOBALS['city'], $model->city),
                 'format' => 'raw',

@@ -151,6 +151,37 @@ $this->registerJs("CKEDITOR.plugins.addExternal( 'ckawesome', '".$ckawesomeUrl[1
         </div>
     </div>
 
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <div class="row">
+                <div class="col-xs-6">
+                    Контент 3
+                </div>
+                <div class="col-xs-6 text-right">
+                    <label class="btn btn-default btn-sm panel-open-btn">
+                        <span class="panel-open-btn-text">Open</span>
+                        <input name="blockunique-toggle-checkbox-content_three" type="checkbox" class="checkbox-blockunique-toggle" value="1">
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="panel-body">
+            <?= $form->field($model, 'content_three_on')->checkbox(['value' => 1]) ?>
+            <div class="blockunique-toggle-form">
+
+                <?php
+                echo $form->field($model, 'content_three')->widget(CKEditor::className(),[
+                    'editorOptions' => ElFinder::ckeditorOptions('elfinder',[
+                        'preset' => 'full', //разработанны стандартные настройки basic, standard, full данную возможность не обязательно использовать
+                        'inline' => false, //по умолчанию false
+                        'extraPlugins' => 'ckawesome', //fontawesome
+                    ]),
+                ]);
+                ?>
+            </div>
+        </div>
+    </div>
+
     
     <div class="panel panel-default">
         <div class="panel-heading">
