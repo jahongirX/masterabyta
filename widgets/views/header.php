@@ -64,14 +64,14 @@
             </div>
             <div class="newhead-middle-col newhead-middle-col-3">
                 <a href="mailto:info@masterabyta.ru" class="newhead-email">
-                    <b>info@masterabyta.ru</b>
+                    <b><?=\app\models\Setting::getSetting('email')?></b>
                 </a>
-                <div class="newhead-time">с 9:00 до 21:00, без выходных</div>
+                <div class="newhead-time"><?=\app\models\Setting::getSetting('rejim_raboti')?></div>
             </div>
             <div class="newhead-middle-col newhead-middle-col-4">
                 <div class="newhead-phones">
-                    <a href="tel:+7 (499) 390-53-90" class="newhead-phone">+7 (499) 390-53-90</a>
-                    <a href="tel:+7 (929) 605-63-54" class="newhead-phone">+7 (929) 605-63-54</a>
+                    <a href="tel:+7 (499) 390-53-90" class="newhead-phone"><?=\app\models\Setting::getSetting('phone_number_2')?></a>
+                    <a href="tel:+7 (929) 605-63-54" class="newhead-phone"><?=\app\models\Setting::getSetting('phone')?></a>
                 </div>
                 <div class="newhead-get-call" onclick="$('.popform').show(); return false;">Заказать звонок</div>
                 <div class="newhead-mob-town">

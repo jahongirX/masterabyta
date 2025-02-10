@@ -85,8 +85,8 @@
                                                 aria-required="true" aria-invalid="false" placeholder="Ваш телефон" value=""
                                                 type="tel" name="tel" /></span>
                                         <p class="soglasen">Нажимая на кнопку "Вызвать мастера", вы принимаете условия <a
-                                                href="soglasie/index.html" target="_blank">Согласия</a> и <a
-                                                href="privacy-policy/index.html" target="_blank">Политики конфиденциальности</a>.
+                                                href="soglasie/" target="_blank">Согласия</a> и <a
+                                                href="privacy-policy/" target="_blank">Политики конфиденциальности</a>.
                                         </p>
                                         <input class="wpcf7-form-control wpcf7-submit has-spinner btn btn-submit" type="submit"
                                                value="Вызвать мастера" />

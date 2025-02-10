@@ -43,6 +43,10 @@ $mastersArr = CustomHelper::customMultiParamArray($mastersArr, 'id');
 $pageTitle = Page::getTitle();
 $pageContent = Page::getContent();
 ?>
+<div class="breadcrumbs">
+    <div class="wrap">
+        <span><span><a href="<?=Url::home()?>">Главная</a></span> / <span class="breadcrumb_last" aria-current="page">Отзывы клиентов</span></span>   </div>
+</div>
 <div class="pagecontent pb30">
     <div class="wrap">
         <h1 class="blocktitle">Отзывы клиентов</h1>

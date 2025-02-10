@@ -5,39 +5,31 @@
             <div class="masters-slider-prev">◄</div>
             <div class="masters-slider-next">►</div>
             <div class="masters-slider carousel">
-                <div class="masters-slide">
-                    <div class="masters-slide-inner">
-                        <div class="masters-slide-photo"><img src="libs/uploads/2019/10/Viktor.jpg"></div>
-                        <div class="masters-slide-name">Виктор</div>
-                        <div class="masters-slide-occupation">Мастер-универсал</div>
-                        <div class="masters-slide-opyt">Опыт работы 6 лет</div>
-                    </div>
-                </div>
-                <div class="masters-slide">
-                    <div class="masters-slide-inner">
-                        <div class="masters-slide-photo"><img src="libs/uploads/2019/10/Nikolaj-e1571811107737.jpg"></div>
-                        <div class="masters-slide-name">Николай</div>
-                        <div class="masters-slide-occupation">Мастер-универсал</div>
-                        <div class="masters-slide-opyt">Опыт работы 14 лет</div>
-                    </div>
-                </div>
-                <div class="masters-slide">
-                    <div class="masters-slide-inner">
-                        <div class="masters-slide-photo"><img src="libs/uploads/2019/10/Sergej.jpg"></div>
-                        <div class="masters-slide-name">Сергей</div>
-                        <div class="masters-slide-occupation">Мастер-универсал</div>
-                        <div class="masters-slide-opyt">Опыт работы 8 лет</div>
-                    </div>
-                </div>
-                <div class="masters-slide">
-                    <div class="masters-slide-inner">
-                        <div class="masters-slide-photo"><img src="/libs/uploads/2019/10/Aleksandr-e1571811857902.jpg">
+                <?php if (!empty($models)): ?>
+                    <?php foreach ($models as $model): ?>
+                        <div class="masters-slide">
+                            <div class="masters-slide-inner">
+                                <div class="masters-slide-photo"><img src="<?=$model->image?>"></div>
+                                <div class="masters-slide-name"><?=$model->name?></div>
+                                <div class="masters-slide-occupation"><?=$model->specialization?></div>
+                                <div class="masters-slide-opyt">Опыт работы
+                                    <?php
+                                        if (!empty($model->experience)){
+                                            if ($model->experience == 1){
+                                               echo $model->experience . ' год';
+                                            }else if($model->experience >= 2 && $model->experience <= 5){
+                                                echo  $model->experience . ' года';
+                                            }else {
+                                                echo $model->experience . ' лет';
+                                            }
+                                        }
+                                    ?>
+                                    </div>
+                            </div>
                         </div>
-                        <div class="masters-slide-name">Александр</div>
-                        <div class="masters-slide-occupation">Мастер-универсал</div>
-                        <div class="masters-slide-opyt">Опыт работы 5 лет</div>
-                    </div>
-                </div>
+                    <?php endforeach; ?>
+                <?php endif; ?>
+
             </div>
         </div>
     </div>

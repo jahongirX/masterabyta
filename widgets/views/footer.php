@@ -5,8 +5,8 @@
         <img style="display:none" class="hidden photo" src="libs/res/logo1.png">
         <div class="footer-inner">
             <div class="footer-left">
-                <a href="index.html" class="logo"><img src="libs/res/logo1.png" alt=""></a>
-                <div class="footer-left-copy">&copy; &laquo;Мастера бытовых услуг&raquo;, 2004-2025.<br>Все права
+                <a href="<?=\yii\helpers\Url::home()?>" class="logo"><img src="libs/res/logo1.png" alt=""></a>
+                <div class="footer-left-copy"><?=\app\models\Setting::getSetting('copyright')?><br>Все права
                     защищены. <a style="color:#ffa500" href="libs/uploads/2024/04/Prajs-list.xlsx" target="blank">Скачать
                         прайс-лист на услуги.</a></div>
                 <span class="soc">
@@ -25,25 +25,25 @@
                         <ul id="menu-podval" class="menu">
                             <li id="menu-item-4717"
                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4717"><a
-                                    href="gde-my-rabotaem/index.html">Где мы работаем?</a></li>
+                                    href="gde-my-rabotaem/">Где мы работаем?</a></li>
                             <li id="menu-item-93"
                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-93"><a
-                                    href="o-kompanii/index.html">О компании</a></li>
+                                    href="o-kompanii/">О компании</a></li>
                             <li id="menu-item-94"
                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-94"><a
-                                    href="vakansii/index.html">Вакансии</a></li>
+                                    href="vakansii/">Вакансии</a></li>
                             <li id="menu-item-92"
                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-92"><a
-                                    href="tseny/index.html">Цены</a></li>
+                                    href="tseny/">Цены</a></li>
                             <li id="menu-item-95"
                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-95"><a
-                                    href="garantiya/index.html">Гарантия</a></li>
+                                    href="garantiya/">Гарантия</a></li>
                             <li id="menu-item-2639"
                                 class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2639"><a
-                                    href="category/articles/index.html">Полезные статьи</a></li>
+                                    href="category/articles/">Полезные статьи</a></li>
                             <li id="menu-item-97"
                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-97"><a
-                                    href="kontakty/index.html">Контакты</a></li>
+                                    href="kontakty/">Контакты</a></li>
                         </ul>
                     </div>
                 </div>
@@ -52,18 +52,16 @@
                         <div class="footer-items">
                             <div class="footer-item">
                                 <div class="footer-item-left">Режим работы:</div>
-                                <div class="footer-item-right"><span class="openingHours">с 9:00 до 21:00, без
-                                 выходных</span></div>
+                                <div class="footer-item-right"><span class="openingHours"><?=\app\models\Setting::getSetting('rejim_raboti')?></span></div>
                             </div>
                             <div class="footer-item">
                                 <div class="footer-item-left">Адрес:</div>
-                                <div class="footer-item-right adr"><span class="locality">г. Москва</span>, <span
-                                        class="street-address">ул. Усиевича, д. 4</span></div>
+                                <div class="footer-item-right adr"><span class="locality"><?=\app\models\Setting::getSetting('address')?></div>
                             </div>
                             <div class="footer-item">
                                 <div class="footer-item-left">E-mail:</div>
                                 <div class="footer-item-right"><a class="email"
-                                                                  href="mailto:info@masterabyta.ru">info@masterabyta.ru</a></div>
+                                                                  href="mailto:<?=\app\models\Setting::getSetting('email')?>"><?=\app\models\Setting::getSetting('email')?></a></div>
                             </div>
                         </div>
                     </div>
@@ -71,11 +69,11 @@
                         <div class="footer-right-phones">
                             <div class="footer-phone">
                                 <i class="fa fa-phone"></i>
-                                <a href="tel:+7 (499) 390-53-90" class="tel">+7 (499) 390-53-90</a>
+                                <a href="tel:+7 (499) 390-53-90" class="tel"><?=\app\models\Setting::getSetting('phone_number_2')?></a>
                             </div>
                             <div class="footer-phone">
                                 <i class="fa fa-phone"></i>
-                                <a href="tel:+7 (929) 605-63-54" class="tel">+7 (929) 605-63-54</a>
+                                <a href="tel:+7 (929) 605-63-54" class="tel"><?=\app\models\Setting::getSetting('phone')?></a>
                             </div>
                         </div>
                         <a class="footer-get-call btn" onclick="$('.popform').show(); return false;">Заказать звонок</a>
@@ -86,9 +84,9 @@
         <div class="footer-bottom">
             <p>Мы используем файлы Cookie и Яндекс Метрику. Сайт не является публичной офертой и носит
                 информационно-справочный характер. Цены на сайте и в прайс-листе мастеров могут различаться. <a
-                    href="polzovatelskoe-soglashenie/index.html" target="_blank">Пользовательское соглашение</a></p>
+                    href="polzovatelskoe-soglashenie/" target="_blank">Пользовательское соглашение</a></p>
             <p>Создание и продвижение - <a href="https://etalon-web.ru/" target="_blank">Etalon-Web</a>. <a
-                    href="rekvizity-operatora-personalnyh-dannyh/index.html" target="_blank">Реквизиты оператора
+                    href="rekvizity-operatora-personalnyh-dannyh/" target="_blank">Реквизиты оператора
                     персональных данных.</a></p>
         </div>
     </div>
@@ -149,8 +147,8 @@
                                                                                                              rows="10" maxlength="2000" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false"
                                                                                                              placeholder="Ваш вопрос" name="subj"></textarea></span>
                 <p class="soglasen" style="color:#fff">Нажимая на кнопку "Отправить", вы принимаете условия <a
-                        href="soglasie/index.html" target="_blank" style="color:#fff!important;">Согласия</a> и <a
-                        href="privacy-policy/index.html" target="_blank" style="color:#fff!important;">Политики
+                        href="soglasie/" target="_blank" style="color:#fff!important;">Согласия</a> и <a
+                        href="privacy-policy/" target="_blank" style="color:#fff!important;">Политики
                         конфиденциальности</a>.</p><input class="wpcf7-form-control wpcf7-submit has-spinner" type="submit"
                                                           value="Отправить" />
                 <div class="wpcf7-response-output" aria-hidden="true"></div>

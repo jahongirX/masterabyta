@@ -305,7 +305,6 @@ class SiteController extends Controller
             $permalink = '/';
         }
         Yii::$app->params['permalink'] = $permalink;
-
         $page = Page::find()->where(['permalink' => $permalink])->andWhere(['!=', 'template', 15])->limit(1)->one();
         if (empty($page)) {
             // if (preg_match('@^metro\/([^\\\]+)\z@', $permalink, $metro_alias)) {
