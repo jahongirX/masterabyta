@@ -16,6 +16,8 @@ use Yii;
  * @property string|null $text
  * @property int|null $date
  * @property int $visible
+ * @property string $user_image
+ * @property string $image
  */
 class Review extends \yii\db\ActiveRecord
 {
@@ -37,7 +39,7 @@ class Review extends \yii\db\ActiveRecord
             [['master', 'rating', 'date', 'visible'], 'default', 'value' => null],
             [['master', 'rating', 'visible'], 'integer'],
             [['date'], 'trim'],
-            [['text', 'service'], 'string'],
+            [['text', 'service','user_image' , 'image'], 'string'],
             [['header', 'name'], 'string', 'max' => 255],
         ];
     }
@@ -57,6 +59,8 @@ class Review extends \yii\db\ActiveRecord
             'text' => 'Text',
             'date' => 'Date',
             'visible' => 'Visible',
+            'user_image' => 'User Image',
+            'image' => 'Image',
         ];
     }
 }

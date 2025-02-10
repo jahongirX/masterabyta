@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 use yii\helpers\Url;
 use app\helpers\CustomHelper;
@@ -33,81 +33,53 @@ $mastersArr = CustomHelper::customMultiParamArray($mastersArr, 'id');
 
 
 ?>
-
+<style>
+    .pagecontent h1.blocktitle{
+        padding-top: 25px;
+    }
+</style>
 <?=\app\widgets\Zastavka::widget() ?>
-
-<div class="container content">
-    <div class="row">
-        
-        <?php if (!empty(Yii::$app->params['page']) && !empty(Yii::$app->params['page']['sidebar_visible'])): ?>
-          <div class="three-mod columns">
-              <?php require_once __DIR__.'/../layouts/include/sidebar.php'; ?>
-          </div>
-          <div class="nine-mod columns">
-        <?php else: ?>
-          <div class="twelve columns">
-        <?php endif; ?>
-
-        <?php require_once __DIR__.'/../layouts/include/breadcrumbs.php'; ?>
-
-          <?php 
-              $pageTitle = Page::getTitle();
-              $pageContent = Page::getContent();
-          ?>
-
-          <?php if (empty(Yii::$app->params['banner_use_page_header'])): ?>
-              <?php if (!empty($pageTitle)): ?>
-                  <h1><?= CustomHelper::custom_br($pageTitle) ?></h1>
-              <?php endif; ?>
-          <?php else: ?>
-              <div style="margin-bottom: 10px;"></div>
-          <?php endif; ?>
-
-          <?php if (!empty($pageContent)): ?>
-              <div><?= $pageContent ?></div>
-          <?php endif; ?>
-
-
-
-          <?php if (!empty(Yii::$app->params['page']['block_reviews_visible'])): ?>
-            <?php $reviews = Review::find()->where(['visible' => 1])->orderBy(['date' => SORT_DESC, 'id' => SORT_DESC])->asArray()->all(); ?>
-            <?php if (!empty($reviews)): ?>
-              <!-- <h2 class="mt30 mb30 text-center">Отзывы клиентов</h2> -->
-              <?php foreach($reviews as $review): ?>
-                  <div class="review">
-                      <div class="review-top flex-justify">
-                        <div class="review-name"><?= $review['name'] ?></div>
-                        <div class="user-review-rating mt0"><?= \app\models\Review::stars($review['rating']) ?> <b><?= $review['rating'] ?></b></div>
-                    </div>
-                    <div class="review-text">
-                        <?= $review['text'] ?>
-                        <div class="spacer"></div>
-                        <?php if (!empty($review['date'])): ?>
-                            <div class="user-review-date"><?= date('d.m.Y', $review['date']) ?></div>
-                        <?php endif; ?>
-                        <?php if (!empty($review['master']) && !empty($mastersArr) && !empty($mastersArr[$review['master']])): ?>
-                          <?php $masterOne = $mastersArr[$review['master']]; ?>
-                          <div class="user-review-master">Мастер: 
-                              <?php if (!empty($masterOne['page']) && !empty($mesterPagesPermalinkArr) && !empty($mesterPagesPermalinkArr[$masterOne['page']])): ?>
-                                  <a href="<?= UrlHelper::to(['city' => '/', 'page' => $mesterPagesPermalinkArr[$masterOne['page']]]) ?>">
-                                      <b><?= $masterOne['name'] ?></b>
-                                  </a>
-                              <?php else: ?>
-                                  <b><?= $masterOne['name'] ?></b>
-                              <?php endif; ?>
-                          </div>
-                      <?php endif; ?>
-                    </div>
-                  </div>
-              <?php endforeach; ?>
-            <?php endif; ?>
-          <?php endif; ?>
-
-
-
-          <?php require_once __DIR__.'/../layouts/include/leadback-2.php'; ?>
-
-
+<?php
+$pageTitle = Page::getTitle();
+$pageContent = Page::getContent();
+?>
+<div class="pagecontent pb30">
+    <div class="wrap">
+        <h1 class="blocktitle">Отзывы клиентов</h1>
+        <div class="contnt">
+            <?=$pageContent?>
         </div>
     </div>
 </div>
+<div class="reviewsblock">
+        <div class="wrap">
+            <div class="articles">
+                <?php if (!empty(Yii::$app->params['page']['block_reviews_visible'])): ?>
+                    <?php $reviews = Review::find()->where(['visible' => 1])->orderBy(['date' => SORT_DESC, 'id' => SORT_DESC])->asArray()->all(); ?>
+                    <?php if (!empty($reviews)): ?>
+                        <?php foreach($reviews as $review): ?>
+                        <?php
+                            $user_image = '/default/user.jpg';
+                            if (!empty($review['user_image'])){
+                                $user_image = $review['user_image'];
+                            }
+                        ?>
+                            <div class="article" style="margin-bottom:30px">
+                                <div class="top">
+                                    <img width="80" height="80" src="<?=$user_image?>" class="attachment-photo size-photo wp-post-image" alt="" decoding="async" loading="lazy" srcset="" sizes="auto, (max-width: 80px) 100vw, 80px">
+                                    <span class="name"><?=$review['name']?></span>
+                                </div>
+                                <?php if (!empty($review['image'])): ?>
+                                    <a href="<?=$review['image']?>" data-fancybox="gallery"><img src="<?=$review['image']?>"></a>
+                                <?php endif; ?>
+                                <p><?=$review['text']?></p>
+                            </div>
+
+                        <?php endforeach; ?>
+                    <?php endif; ?>
+                <?php endif; ?>
+            </div>
+        </div>
+    </div>
+<?=\app\widgets\ZadatVopros::widget()?>
+

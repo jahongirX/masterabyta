@@ -58,6 +58,16 @@ $this->params['breadcrumbs'][] = $this->title;
                 },
             ],
             'visible:boolean',
+            [
+                'attribute' => 'image',
+                'value' => \app\helpers\CustomHelper::getAdminCustomImage($model, 'image'),
+                'format' => 'html',
+            ],
+            [
+                'attribute' => 'user_image',
+                'value' => \app\helpers\CustomHelper::getAdminCustomImage($model, 'user_image'),
+                'format' => 'html',
+            ],
         ],
     ]) ?>
 

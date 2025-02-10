@@ -28,6 +28,10 @@ use yii\widgets\ActiveForm;
         <?= $form->field($model, 'date')->textInput(['maxlength' => true]) ?>
     </div>
 
+    <?= \app\helpers\CustomHelper::ElFinderInputFile($form, $model, 'image'); ?>
+
+    <?= \app\helpers\CustomHelper::ElFinderInputFile($form, $model, 'user_image'); ?>
+
     <?= $form->field($model, 'visible')->dropDownList(['1' => 'Опубликовано', '0' => 'Черновик']) ?>
 
     <div class="form-group">
