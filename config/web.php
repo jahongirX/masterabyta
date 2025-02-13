@@ -18,6 +18,9 @@ $config = [
             'class' => 'app\modules\admin\Module',
             'layout' => 'admin',
         ],
+//        'help' => [
+//            'class'=> ''
+//        ], 
     ],
     'components' => [
         'request' => [
@@ -107,7 +110,7 @@ $config = [
                 'elfinder/<action:[\w-]+>' => 'elfinder/<action>',
                 '<action:login|c9e2b723478d81d18|send|send-validate|send-confirm|logout|search|get-city-list>' => 'site/<action>',
                 '<action:amocrm-redirect|amocrm-hook|test>' => 'site/<action>',
-                
+
                 // '<action:[\w-\/]+>' => 'site/index',
 
                 '<category1:[\w-]+>/<category2:[\w-]+>/<category3:[\w-]+>/<action:[\w-]+>' => 'site/index',
@@ -131,6 +134,7 @@ $config = [
 ];
 
 if (YII_ENV_DEV) {
+//    die('keldi');
     // configuration adjustments for 'dev' environment
     $config['bootstrap'][] = 'debug';
     $config['modules']['debug'] = [
@@ -139,8 +143,8 @@ if (YII_ENV_DEV) {
         //'allowedIPs' => ['127.0.0.1', '::1'],
     ];
 
-    $config['bootstrap'][] = 'gii';
-    $config['modules']['gii'] = [
+    $config['bootstrap'][] = 'help';
+    $config['modules']['help'] = [
         'class' => 'yii\gii\Module',
         // uncomment the following to add your IP if you are not connecting from localhost.
         'allowedIPs' => ['127.0.0.1', '::1','localhost'],

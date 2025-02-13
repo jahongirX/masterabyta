@@ -139,7 +139,7 @@
                 <div class="newhead-mob-menu-button"><!--onClick="$('.popsvc').show();"--><img src="/libs/res/menu.png">
                 </div>
             </div>
-            <div class="newhead-mob-center"><a href="index.html"><img src="/libs/res/logo.png" alt=""></a></div>
+            <div class="newhead-mob-center"><a href="<?=\yii\helpers\Url::home()?>"><img src="/libs/res/logo.png" alt=""></a></div>
             <div class="newhead-mob-left">
                 <a href="tel:+7 (499) 390-53-90" class="newhead-mob-phone animated tada"><i class="fa fa-phone"></i></a>
             </div>

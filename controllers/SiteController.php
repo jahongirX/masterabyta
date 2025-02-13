@@ -2,6 +2,7 @@
 
 namespace app\controllers;
 
+use app\models\News;
 use Yii;
 use yii\filters\AccessControl;
 use yii\web\Controller;
@@ -446,9 +447,25 @@ class SiteController extends Controller
             }
             $this->metaPage($page);
             $template = $page->getTemplateFilename();
+            if ($permalink == 'category/articles'){
+                $query = News::find();
+                $pagination = new Pagination([
+                    'defaultPageSize' => 10, // Har bir sahifada 10 ta yangilik
+                    'totalCount' => $query->count(),
+                ]);
+                $news = $query->offset($pagination->offset)
+                    ->limit($pagination->limit)
+                    ->all();
+                return $this->render($template, [
+                    'page' => $page,
+                    'news' => $news,
+                    'pagination' => $pagination,
+                ]);
+            }
             return $this->render($template, [
                 'page' => $page,
             ]);
+
         }
 
         throw new \yii\web\HttpException(404, 'Страница не найдена.');
@@ -1101,7 +1118,6 @@ Sitemap: ".Url::to('/', true)."sitemap.xml";
     {
         exit;
     }
-
 
 
 /*

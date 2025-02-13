@@ -34,7 +34,7 @@
                         <div class="article">
                             <img width="270" height="200" src="libs/uploads/2018/12/ch-270x200.jpg"
                                  class="attachment-svc size-svc wp-post-image" alt="" decoding="async" /> <a
-                                href="uslugi-elektrika/ustanovka-bra/index.html" class="ttl">Установка бра</a>
+                                href="/uslugi-elektrika/ustanovka-bra/" class="ttl">Установка бра</a>
                             <span class="price">
                            от 400 руб. </span>
                         </div>
@@ -53,6 +53,7 @@
                            от 1400 руб. </span>
                         </div>
                         <div class="article">
+
                             <img width="270" height="200" src="libs/uploads/2018/10/akrilovaya-vanna-270x200.jpg"
                                  class="attachment-svc size-svc wp-post-image" alt="" decoding="async" /> <span
                                 class="ttl">Установка акриловой ванны</span>
@@ -63,7 +64,7 @@
                             <img width="270" height="200"
                                  src="libs/uploads/2018/09/Suhaya_chistka_kovra_sodoy_v_domashnih_usloviyah_%d0%a1%d1%83%d1%85%d0%b0%d1%8f-%d1%87%d0%b8%d1%81%d1%82%d0%ba%d0%b0-%d0%ba%d0%be%d0%b2%d1%80%d0%b0-%d1%81%d0%be%d0%b4%d0%be%d0%b9-%d0%b2-%d0%b4%d0%be%d0%bc%d0%b0%d1%88%d0%bd%d0%b8%d1%85-%d1%83%d1%81%d0%bb%d0%be%d0%b2%d0%b8%d1%8f%d1%85-270x200.jpg"
                                  class="attachment-svc size-svc wp-post-image" alt="" decoding="async" /> <a
-                                href="uslugi-klininga/chistka-kovrov-i-myagkoj-mebeli-na-domu/index.html" class="ttl">Чистка
+                                href="/uslugi-klininga/chistka-kovrov-i-myagkoj-mebeli-na-domu/" class="ttl">Чистка
                                 ковра</a>
                             <span class="price">
                            от 1000 руб. </span>
@@ -72,7 +73,7 @@
                             <img width="270" height="200"
                                  src="libs/uploads/2018/09/%d0%a3%d0%b1%d0%be%d1%80%d0%ba%d0%b0-%d0%b2%d0%b0%d0%bd%d0%bd%d0%be%d0%b9-270x200.jpg"
                                  class="attachment-svc size-svc wp-post-image" alt="" decoding="async" /> <a
-                                href="uslugi-klininga/uborka-sanuzlov-vannyh-i-tualetov/index.html" class="ttl">Уборка
+                                href="/uslugi-klininga/uborka-sanuzlov-vannyh-i-tualetov/" class="ttl">Уборка
                                 ванной</a>
                             <span class="price">
                            от 150 руб. </span>
@@ -81,14 +82,14 @@
                             <img width="270" height="200"
                                  src="libs/uploads/2018/09/484446755_w0_h0_uborka_ofisa-270x200.jpg"
                                  class="attachment-svc size-svc wp-post-image" alt="" decoding="async" /> <a
-                                href="uslugi-klininga/uborka-ofisov/index.html" class="ttl">Уборка офиса</a>
+                                href="uslugi-klininga/uborka-ofisov/" class="ttl">Уборка офиса</a>
                             <span class="price">
                            от 1600 руб. </span>
                         </div>
                         <div class="article">
                             <img width="270" height="200" src="libs/uploads/2018/09/2-270x200.jpg"
                                  class="attachment-svc size-svc wp-post-image" alt="" decoding="async" /> <a
-                                href="uslugi-klininga/uborka-kvartir/index.html" class="ttl">Уборка квартиры</a>
+                                href="/uslugi-klininga/uborka-kvartir/" class="ttl">Уборка квартиры</a>
                             <span class="price">
                            от 1600 руб. </span>
                         </div>
@@ -104,7 +105,7 @@
                             <img width="270" height="200"
                                  src="libs/uploads/2018/09/%d0%92%d1%8b%d0%bd%d0%be%d1%81-%d0%bc%d1%83%d1%81%d0%be%d1%80%d0%b0-270x200.jpg"
                                  class="attachment-svc size-svc wp-post-image" alt="" decoding="async" /> <a
-                                href="uslugi-klininga/vynos-musora/index.html" class="ttl">Вынос мусора</a>
+                                href="uslugi-klininga/vynos-musora/" class="ttl">Вынос мусора</a>
                             <span class="price">
                            от 250 руб. </span>
                         </div>
@@ -112,7 +113,7 @@
                             <img width="270" height="200"
                                  src="libs/uploads/2018/09/%d1%87%d0%b8%d1%81%d1%82%d0%ba%d0%b0-270x200.jpg"
                                  class="attachment-svc size-svc wp-post-image" alt="" decoding="async" /> <a
-                                href="zhena-na-chas/chistka-zhalyuzi/index.html" class="ttl">Чистка жалюзи</a>
+                                href="/zhena-na-chas/chistka-zhalyuzi/" class="ttl">Чистка жалюзи</a>
                             <span class="price">
                            от 1600 руб. </span>
                         </div>
@@ -143,7 +144,7 @@
                             <img width="270" height="200"
                                  src="libs/uploads/2018/09/%d1%80%d0%b5%d0%bc%d0%be%d0%bd%d1%82_%d1%88%d0%ba%d0%b0%d1%84%d0%b0-%d0%ba%d1%83%d0%bf%d0%b5_2-270x200.jpg"
                                  class="attachment-svc size-svc wp-post-image" alt="" decoding="async" /> <a
-                                href="remont-mebeli/remont-shkafov-kupe/index.html" class="ttl">Ремонт шкафа-купе</a>
+                                href="/remont-mebeli/remont-shkafov-kupe/" class="ttl">Ремонт шкафа-купе</a>
                             <span class="price">
                            от 1400 руб. </span>
                         </div>
@@ -151,7 +152,7 @@
                             <img width="270" height="200" src="libs/uploads/2018/09/ljuhyt-1-270x200.jpg"
                                  class="attachment-svc size-svc wp-post-image" alt="" decoding="async"
                                  srcset="https://masterabyta.ru/libs/uploads/2018/09/ljuhyt-1-270x200.jpg 270w, https://masterabyta.ru/libs/uploads/2018/09/ljuhyt-1.jpg 300w"
-                                 sizes="(max-width: 270px) 100vw, 270px" /> <a href="remont-mebeli/remont-krovati/index.html"
+                                 sizes="(max-width: 270px) 100vw, 270px" /> <a href="/remont-mebeli/remont-krovati/"
                                                                                class="ttl">Ремонт кровати</a>
                             <span class="price">
                            от 1550 руб. </span>
@@ -160,14 +161,14 @@
                             <img width="270" height="200"
                                  src="libs/uploads/2018/09/62378626_w0_h0_2_sht._img6499-270x200.jpg"
                                  class="attachment-svc size-svc wp-post-image" alt="" decoding="async" /> <a
-                                href="remont-mebeli/remont-divanov/index.html" class="ttl">Ремонт дивана</a>
+                                href="/remont-mebeli/remont-divanov/" class="ttl">Ремонт дивана</a>
                             <span class="price">
                            от 1500 руб. </span>
                         </div>
                         <div class="article">
                             <img width="270" height="200" src="libs/uploads/2018/09/img_8274-270x200.jpg"
                                  class="attachment-svc size-svc wp-post-image" alt="" decoding="async" /> <a
-                                href="remont-mebeli/peretyazhka-i-remont-stulev/index.html" class="ttl">Ремонт стула</a>
+                                href="/remont-mebeli/peretyazhka-i-remont-stulev/" class="ttl">Ремонт стула</a>
                             <span class="price">
                            от 650 руб. </span>
                         </div>
@@ -175,7 +176,7 @@
                             <img width="270" height="200"
                                  src="libs/uploads/2018/09/0000-3ab3030l-funnatic-1455707342-1400x1400-270x200.jpg"
                                  class="attachment-svc size-svc wp-post-image" alt="" decoding="async" /> <a
-                                href="uslugi-plotnika/ustanovka-varochnoj-paneli/index.html" class="ttl">Установка варочной
+                                href="/uslugi-plotnika/ustanovka-varochnoj-paneli/" class="ttl">Установка варочной
                                 панели</a>
                             <span class="price">
                            от 950 руб. </span>
@@ -184,7 +185,7 @@
                             <img width="270" height="200"
                                  src="libs/uploads/2018/09/porozhki-dlja-pola-s-perepadom-270x200.jpg"
                                  class="attachment-svc size-svc wp-post-image" alt="" decoding="async" /> <a
-                                href="melkij-remont-v-kvartire/ustanovka-porozhkov/index.html" class="ttl">Укладка порожков
+                                href="/melkij-remont-v-kvartire/ustanovka-porozhkov/" class="ttl">Укладка порожков
                                 на пол</a>
                             <span class="price">
                            от 250 руб. </span>
@@ -193,7 +194,7 @@
                             <img width="270" height="200"
                                  src="libs/uploads/2018/09/10953_f_6_povesim-televizor-na-stenu.montazhnavesustanovka-televizora-270x200.jpg"
                                  class="attachment-svc size-svc wp-post-image" alt="" decoding="async" /> <a
-                                href="melkij-remont-v-kvartire/ustanovka-televizora-na-stenu/index.html" class="ttl">Монтаж
+                                href="/melkij-remont-v-kvartire/ustanovka-televizora-na-stenu/" class="ttl">Монтаж
                                 телевизора на стену</a>
                             <span class="price">
                            от 1290 руб. </span>
@@ -203,7 +204,7 @@
                                  class="attachment-svc size-svc wp-post-image" alt="" decoding="async"
                                  srcset="https://masterabyta.ru/libs/uploads/2018/09/rulonnie-shtori-270x200.jpg 270w, https://masterabyta.ru/libs/uploads/2018/09/rulonnie-shtori-e1535838271663.jpg 300w"
                                  sizes="(max-width: 270px) 100vw, 270px" /> <a
-                                href="melkij-remont-v-kvartire/ustanovka-rulonnyh-shtor/index.html" class="ttl">Монтаж
+                                href="/melkij-remont-v-kvartire/ustanovka-rulonnyh-shtor/" class="ttl">Монтаж
                                 рулонных штор</a>
                             <span class="price">
                            от 450 руб. </span>
@@ -211,7 +212,7 @@
                         <div class="article">
                             <img width="270" height="200" src="libs/uploads/2018/09/koltsa-nadevayutsya-zaranee-270x200.jpg"
                                  class="attachment-svc size-svc wp-post-image" alt="" decoding="async" /> <a
-                                href="melkij-remont-v-kvartire/povesit-karniz/index.html" class="ttl">Установка карниза для
+                                href="/melkij-remont-v-kvartire/povesit-karniz/" class="ttl">Установка карниза для
                                 штор</a>
                             <span class="price">
                            от 480 руб. </span>
@@ -219,14 +220,14 @@
                         <div class="article">
                             <img width="270" height="200" src="libs/uploads/2018/09/tur1-270x200.jpg"
                                  class="attachment-svc size-svc wp-post-image" alt="" decoding="async" /> <a
-                                href="melkij-remont-v-kvartire/ustanovka-turnika/index.html" class="ttl">Монтаж турника</a>
+                                href="/melkij-remont-v-kvartire/ustanovka-turnika/" class="ttl">Монтаж турника</a>
                             <span class="price">
                            от 950 руб. </span>
                         </div>
                         <div class="article">
                             <img width="270" height="200" src="libs/uploads/2018/09/images_cms-image-000008123-270x200.jpg"
                                  class="attachment-svc size-svc wp-post-image" alt="" decoding="async" /> <a
-                                href="melkij-remont-v-kvartire/povesit-kartinu/index.html" class="ttl">Навес картины на
+                                href="/melkij-remont-v-kvartire/povesit-kartinu/" class="ttl">Навес картины на
                                 стену</a>
                             <span class="price">
                            от 350 руб. </span>
@@ -234,14 +235,14 @@
                         <div class="article">
                             <img width="270" height="200" src="libs/uploads/2018/09/118-30-270x200.jpg"
                                  class="attachment-svc size-svc wp-post-image" alt="" decoding="async" /> <a
-                                href="melkij-remont-v-kvartire/montazh-zerkal/index.html" class="ttl">Навес зеркала</a>
+                                href="/melkij-remont-v-kvartire/montazh-zerkal/" class="ttl">Навес зеркала</a>
                             <span class="price">
                            от 1600 руб. </span>
                         </div>
                         <div class="article">
                             <img width="270" height="200" src="libs/uploads/2018/09/100_5808-270x200.jpg"
                                  class="attachment-svc size-svc wp-post-image" alt="" decoding="async" /> <a
-                                href="melkij-remont-v-kvartire/ustanovka-plintusa/index.html" class="ttl">Установка
+                                href="/melkij-remont-v-kvartire/ustanovka-plintusa/" class="ttl">Установка
                                 плинтуса</a>
                             <span class="price">
                            от 180 руб. (пог. м) </span>
@@ -256,7 +257,7 @@
                         <div class="article">
                             <img width="270" height="200" src="libs/uploads/2018/09/rozetka-kak-podklyuchit-43-270x200.jpg"
                                  class="attachment-svc size-svc wp-post-image" alt="" decoding="async" /> <a
-                                href="uslugi-elektrika/ustanovka-rozetok/index.html" class="ttl">Установка розетки</a>
+                                href="/uslugi-elektrika/ustanovka-rozetok/" class="ttl">Установка розетки</a>
                             <span class="price">
                            от 180 руб. </span>
                         </div>
@@ -264,7 +265,7 @@
                             <img width="270" height="200"
                                  src="libs/uploads/2018/09/%d0%ad%d0%bb%d0%b5%d0%ba%d1%82%d1%80%d0%be%d1%89%d0%b8%d1%82%d0%be%d0%ba-270x200.jpg"
                                  class="attachment-svc size-svc wp-post-image" alt="" decoding="async" /> <a
-                                href="uslugi-elektrika/sborka-elektroshhitov/index.html" class="ttl">Монтаж
+                                href="/uslugi-elektrika/sborka-elektroshhitov/" class="ttl">Монтаж
                                 электрощитовой</a>
                             <span class="price">
                            от 2800 руб. </span>
@@ -288,7 +289,7 @@
                         <div class="article">
                             <img width="270" height="200" src="libs/uploads/2018/08/lipkaya-lenta-iz-plastika-270x200.jpg"
                                  class="attachment-svc size-svc wp-post-image" alt="" decoding="async" /> <a
-                                href="uslugi-santehnika/germetizatsiya-shvov-v-vannoj/index.html" class="ttl">Герметизация
+                                href="/uslugi-santehnika/germetizatsiya-shvov-v-vannoj/" class="ttl">Герметизация
                                 швов в ванной</a>
                             <span class="price">
                            от 600 руб. </span>
@@ -297,7 +298,7 @@
                             <img width="270" height="200"
                                  src="libs/uploads/2018/08/%d0%a3%d1%81%d1%82%d1%80%d0%b0%d0%bd%d0%b5%d0%bd%d0%b8%d0%b5-%d0%b7%d0%b0%d1%81%d0%be%d1%80%d0%be%d0%b2-270x200.jpg"
                                  class="attachment-svc size-svc wp-post-image" alt="" decoding="async" /> <a
-                                href="uslugi-santehnika/ustranenie-zasorov-kanalizatsii/index.html" class="ttl">Устранение
+                                href="/uslugi-santehnika/ustranenie-zasorov-kanalizatsii/" class="ttl">Устранение
                                 засоров</a>
                             <span class="price">
                            от 790 руб. </span>
@@ -305,14 +306,14 @@
                         <div class="article">
                             <img width="270" height="200" src="libs/uploads/2018/08/Remont-un-270x200.jpg"
                                  class="attachment-svc size-svc wp-post-image" alt="" decoding="async" /> <a
-                                href="uslugi-santehnika/remont-unitaza/index.html" class="ttl">Ремонт унитаза</a>
+                                href="/uslugi-santehnika/remont-unitaza/" class="ttl">Ремонт унитаза</a>
                             <span class="price">
                            От 800 руб. </span>
                         </div>
                         <div class="article">
                             <img width="270" height="200" src="libs/uploads/2018/08/211131583_w0_h0_8-270x200.jpg"
                                  class="attachment-svc size-svc wp-post-image" alt="" decoding="async" /> <a
-                                href="uslugi-santehnika/zamena-smesitelya/index.html" class="ttl">Замена смесителя</a>
+                                href="/uslugi-santehnika/zamena-smesitelya/" class="ttl">Замена смесителя</a>
                             <span class="price">
                            от 650 руб. </span>
                         </div>
@@ -320,7 +321,7 @@
                             <img width="270" height="200"
                                  src="libs/uploads/2018/08/%d0%a0%d0%b0%d0%ba%d0%be%d0%b2%d0%b8%d0%bd%d0%b0-1-270x200.jpg"
                                  class="attachment-svc size-svc wp-post-image" alt="" decoding="async" /> <a
-                                href="uslugi-santehnika/ustanovka-rakoviny-v-vannoj/index.html" class="ttl">Установка
+                                href="/uslugi-santehnika/ustanovka-rakoviny-v-vannoj/" class="ttl">Установка
                                 раковины</a>
                             <span class="price">
                            от 1200 руб. </span>
@@ -356,7 +357,7 @@
                         <div class="article">
                             <img width="270" height="200" src="libs/uploads/2018/08/lipkaya-lenta-iz-plastika-270x200.jpg"
                                  class="attachment-svc size-svc wp-post-image" alt="" decoding="async" /> <a
-                                href="uslugi-santehnika/germetizatsiya-shvov-v-vannoj/index.html" class="ttl">Герметизация
+                                href="/uslugi-santehnika/germetizatsiya-shvov-v-vannoj/" class="ttl">Герметизация
                                 швов в ванной</a>
                             <span class="price">
                            от 600 руб. </span>
@@ -365,7 +366,7 @@
                             <img width="270" height="200"
                                  src="libs/uploads/2018/08/%d0%a3%d1%81%d1%82%d1%80%d0%b0%d0%bd%d0%b5%d0%bd%d0%b8%d0%b5-%d0%b7%d0%b0%d1%81%d0%be%d1%80%d0%be%d0%b2-270x200.jpg"
                                  class="attachment-svc size-svc wp-post-image" alt="" decoding="async" /> <a
-                                href="uslugi-santehnika/ustranenie-zasorov-kanalizatsii/index.html" class="ttl">Устранение
+                                href="/uslugi-santehnika/ustranenie-zasorov-kanalizatsii/" class="ttl">Устранение
                                 засоров</a>
                             <span class="price">
                            от 790 руб. </span>
@@ -373,14 +374,14 @@
                         <div class="article">
                             <img width="270" height="200" src="libs/uploads/2018/08/Remont-un-270x200.jpg"
                                  class="attachment-svc size-svc wp-post-image" alt="" decoding="async" /> <a
-                                href="uslugi-santehnika/remont-unitaza/index.html" class="ttl">Ремонт унитаза</a>
+                                href="/uslugi-santehnika/remont-unitaza/" class="ttl">Ремонт унитаза</a>
                             <span class="price">
                            От 800 руб. </span>
                         </div>
                         <div class="article">
                             <img width="270" height="200" src="libs/uploads/2018/08/211131583_w0_h0_8-270x200.jpg"
                                  class="attachment-svc size-svc wp-post-image" alt="" decoding="async" /> <a
-                                href="uslugi-santehnika/zamena-smesitelya/index.html" class="ttl">Замена смесителя</a>
+                                href="/uslugi-santehnika/zamena-smesitelya/" class="ttl">Замена смесителя</a>
                             <span class="price">
                            от 650 руб. </span>
                         </div>
@@ -388,7 +389,7 @@
                             <img width="270" height="200"
                                  src="libs/uploads/2018/08/%d0%a0%d0%b0%d0%ba%d0%be%d0%b2%d0%b8%d0%bd%d0%b0-1-270x200.jpg"
                                  class="attachment-svc size-svc wp-post-image" alt="" decoding="async" /> <a
-                                href="uslugi-santehnika/ustanovka-rakoviny-v-vannoj/index.html" class="ttl">Установка
+                                href="/uslugi-santehnika/ustanovka-rakoviny-v-vannoj/" class="ttl">Установка
                                 раковины</a>
                             <span class="price">
                            от 1200 руб. </span>
@@ -416,7 +417,7 @@
                         <div class="article">
                             <img width="270" height="200" src="libs/uploads/2018/12/ch-270x200.jpg"
                                  class="attachment-svc size-svc wp-post-image" alt="" decoding="async" /> <a
-                                href="uslugi-elektrika/ustanovka-bra/index.html" class="ttl">Установка бра</a>
+                                href="/uslugi-elektrika/ustanovka-bra/" class="ttl">Установка бра</a>
                             <span class="price">
                            от 400 руб. </span>
                         </div>
@@ -424,7 +425,7 @@
                             <img width="270" height="200"
                                  src="libs/uploads/2018/09/0000-3ab3030l-funnatic-1455707342-1400x1400-270x200.jpg"
                                  class="attachment-svc size-svc wp-post-image" alt="" decoding="async" /> <a
-                                href="uslugi-plotnika/ustanovka-varochnoj-paneli/index.html" class="ttl">Установка варочной
+                                href="/uslugi-plotnika/ustanovka-varochnoj-paneli/" class="ttl">Установка варочной
                                 панели</a>
                             <span class="price">
                            от 950 руб. </span>
@@ -439,7 +440,7 @@
                         <div class="article">
                             <img width="270" height="200" src="libs/uploads/2018/09/rozetka-kak-podklyuchit-43-270x200.jpg"
                                  class="attachment-svc size-svc wp-post-image" alt="" decoding="async" /> <a
-                                href="uslugi-elektrika/ustanovka-rozetok/index.html" class="ttl">Установка розетки</a>
+                                href="/uslugi-elektrika/ustanovka-rozetok/" class="ttl">Установка розетки</a>
                             <span class="price">
                            от 180 руб. </span>
                         </div>
@@ -447,7 +448,7 @@
                             <img width="270" height="200"
                                  src="libs/uploads/2018/09/%d0%ad%d0%bb%d0%b5%d0%ba%d1%82%d1%80%d0%be%d1%89%d0%b8%d1%82%d0%be%d0%ba-270x200.jpg"
                                  class="attachment-svc size-svc wp-post-image" alt="" decoding="async" /> <a
-                                href="uslugi-elektrika/sborka-elektroshhitov/index.html" class="ttl">Монтаж
+                                href="/uslugi-elektrika/sborka-elektroshhitov/" class="ttl">Монтаж
                                 электрощитовой</a>
                             <span class="price">
                            от 2800 руб. </span>
@@ -498,7 +499,7 @@
                             <img width="270" height="200"
                                  src="libs/uploads/2018/09/%d1%80%d0%b5%d0%bc%d0%be%d0%bd%d1%82_%d1%88%d0%ba%d0%b0%d1%84%d0%b0-%d0%ba%d1%83%d0%bf%d0%b5_2-270x200.jpg"
                                  class="attachment-svc size-svc wp-post-image" alt="" decoding="async" /> <a
-                                href="remont-mebeli/remont-shkafov-kupe/index.html" class="ttl">Ремонт шкафа-купе</a>
+                                href="/remont-mebeli/remont-shkafov-kupe/" class="ttl">Ремонт шкафа-купе</a>
                             <span class="price">
                            от 1400 руб. </span>
                         </div>
@@ -506,7 +507,7 @@
                             <img width="270" height="200" src="libs/uploads/2018/09/ljuhyt-1-270x200.jpg"
                                  class="attachment-svc size-svc wp-post-image" alt="" decoding="async"
                                  srcset="https://masterabyta.ru/libs/uploads/2018/09/ljuhyt-1-270x200.jpg 270w, https://masterabyta.ru/libs/uploads/2018/09/ljuhyt-1.jpg 300w"
-                                 sizes="(max-width: 270px) 100vw, 270px" /> <a href="remont-mebeli/remont-krovati/index.html"
+                                 sizes="(max-width: 270px) 100vw, 270px" /> <a href="/remont-mebeli/remont-krovati/"
                                                                                class="ttl">Ремонт кровати</a>
                             <span class="price">
                            от 1550 руб. </span>
@@ -515,7 +516,7 @@
                             <img width="270" height="200"
                                  src="libs/uploads/2018/09/62378626_w0_h0_2_sht._img6499-270x200.jpg"
                                  class="attachment-svc size-svc wp-post-image" alt="" decoding="async" /> <a
-                                href="remont-mebeli/remont-divanov/index.html" class="ttl">Ремонт дивана</a>
+                                href="remont-mebeli/remont-divanov/" class="ttl">Ремонт дивана</a>
                             <span class="price">
                            от 1500 руб. </span>
                         </div>
@@ -530,7 +531,7 @@
                         <div class="article">
                             <img width="270" height="200" src="libs/uploads/2018/09/img_8274-270x200.jpg"
                                  class="attachment-svc size-svc wp-post-image" alt="" decoding="async" /> <a
-                                href="remont-mebeli/peretyazhka-i-remont-stulev/index.html" class="ttl">Ремонт стула</a>
+                                href="/remont-mebeli/peretyazhka-i-remont-stulev/" class="ttl">Ремонт стула</a>
                             <span class="price">
                            от 650 руб. </span>
                         </div>
@@ -543,7 +544,7 @@
                             <img width="270" height="200"
                                  src="libs/uploads/2018/09/porozhki-dlja-pola-s-perepadom-270x200.jpg"
                                  class="attachment-svc size-svc wp-post-image" alt="" decoding="async" /> <a
-                                href="melkij-remont-v-kvartire/ustanovka-porozhkov/index.html" class="ttl">Укладка порожков
+                                href="/melkij-remont-v-kvartire/ustanovka-porozhkov/" class="ttl">Укладка порожков
                                 на пол</a>
                             <span class="price">
                            от 250 руб. </span>
@@ -552,7 +553,7 @@
                             <img width="270" height="200"
                                  src="libs/uploads/2018/09/10953_f_6_povesim-televizor-na-stenu.montazhnavesustanovka-televizora-270x200.jpg"
                                  class="attachment-svc size-svc wp-post-image" alt="" decoding="async" /> <a
-                                href="melkij-remont-v-kvartire/ustanovka-televizora-na-stenu/index.html" class="ttl">Монтаж
+                                href="/melkij-remont-v-kvartire/ustanovka-televizora-na-stenu/" class="ttl">Монтаж
                                 телевизора на стену</a>
                             <span class="price">
                            от 1290 руб. </span>
@@ -562,7 +563,7 @@
                                  class="attachment-svc size-svc wp-post-image" alt="" decoding="async"
                                  srcset="https://masterabyta.ru/libs/uploads/2018/09/rulonnie-shtori-270x200.jpg 270w, https://masterabyta.ru/libs/uploads/2018/09/rulonnie-shtori-e1535838271663.jpg 300w"
                                  sizes="(max-width: 270px) 100vw, 270px" /> <a
-                                href="melkij-remont-v-kvartire/ustanovka-rulonnyh-shtor/index.html" class="ttl">Монтаж
+                                href="/melkij-remont-v-kvartire/ustanovka-rulonnyh-shtor/" class="ttl">Монтаж
                                 рулонных штор</a>
                             <span class="price">
                            от 450 руб. </span>
@@ -570,7 +571,7 @@
                         <div class="article">
                             <img width="270" height="200" src="libs/uploads/2018/09/koltsa-nadevayutsya-zaranee-270x200.jpg"
                                  class="attachment-svc size-svc wp-post-image" alt="" decoding="async" /> <a
-                                href="melkij-remont-v-kvartire/povesit-karniz/index.html" class="ttl">Установка карниза для
+                                href="/melkij-remont-v-kvartire/povesit-karniz/" class="ttl">Установка карниза для
                                 штор</a>
                             <span class="price">
                            от 480 руб. </span>
@@ -578,14 +579,14 @@
                         <div class="article">
                             <img width="270" height="200" src="libs/uploads/2018/09/tur1-270x200.jpg"
                                  class="attachment-svc size-svc wp-post-image" alt="" decoding="async" /> <a
-                                href="melkij-remont-v-kvartire/ustanovka-turnika/index.html" class="ttl">Монтаж турника</a>
+                                href="/melkij-remont-v-kvartire/ustanovka-turnika/" class="ttl">Монтаж турника</a>
                             <span class="price">
                            от 950 руб. </span>
                         </div>
                         <div class="article">
                             <img width="270" height="200" src="libs/uploads/2018/09/images_cms-image-000008123-270x200.jpg"
                                  class="attachment-svc size-svc wp-post-image" alt="" decoding="async" /> <a
-                                href="melkij-remont-v-kvartire/povesit-kartinu/index.html" class="ttl">Навес картины на
+                                href="/melkij-remont-v-kvartire/povesit-kartinu/" class="ttl">Навес картины на
                                 стену</a>
                             <span class="price">
                            от 350 руб. </span>
@@ -593,14 +594,14 @@
                         <div class="article">
                             <img width="270" height="200" src="libs/uploads/2018/09/118-30-270x200.jpg"
                                  class="attachment-svc size-svc wp-post-image" alt="" decoding="async" /> <a
-                                href="melkij-remont-v-kvartire/montazh-zerkal/index.html" class="ttl">Навес зеркала</a>
+                                href="/melkij-remont-v-kvartire/montazh-zerkal/" class="ttl">Навес зеркала</a>
                             <span class="price">
                            от 1600 руб. </span>
                         </div>
                         <div class="article">
                             <img width="270" height="200" src="libs/uploads/2018/09/100_5808-270x200.jpg"
                                  class="attachment-svc size-svc wp-post-image" alt="" decoding="async" /> <a
-                                href="melkij-remont-v-kvartire/ustanovka-plintusa/index.html" class="ttl">Установка
+                                href="/melkij-remont-v-kvartire/ustanovka-plintusa/" class="ttl">Установка
                                 плинтуса</a>
                             <span class="price">
                            от 180 руб. (пог. м) </span>
@@ -614,7 +615,7 @@
                             <img width="270" height="200"
                                  src="libs/uploads/2018/09/Suhaya_chistka_kovra_sodoy_v_domashnih_usloviyah_%d0%a1%d1%83%d1%85%d0%b0%d1%8f-%d1%87%d0%b8%d1%81%d1%82%d0%ba%d0%b0-%d0%ba%d0%be%d0%b2%d1%80%d0%b0-%d1%81%d0%be%d0%b4%d0%be%d0%b9-%d0%b2-%d0%b4%d0%be%d0%bc%d0%b0%d1%88%d0%bd%d0%b8%d1%85-%d1%83%d1%81%d0%bb%d0%be%d0%b2%d0%b8%d1%8f%d1%85-270x200.jpg"
                                  class="attachment-svc size-svc wp-post-image" alt="" decoding="async" /> <a
-                                href="uslugi-klininga/chistka-kovrov-i-myagkoj-mebeli-na-domu/index.html" class="ttl">Чистка
+                                href="/uslugi-klininga/chistka-kovrov-i-myagkoj-mebeli-na-domu/" class="ttl">Чистка
                                 ковра</a>
                             <span class="price">
                            от 1000 руб. </span>
@@ -623,7 +624,7 @@
                             <img width="270" height="200"
                                  src="libs/uploads/2018/09/%d0%a3%d0%b1%d0%be%d1%80%d0%ba%d0%b0-%d0%b2%d0%b0%d0%bd%d0%bd%d0%be%d0%b9-270x200.jpg"
                                  class="attachment-svc size-svc wp-post-image" alt="" decoding="async" /> <a
-                                href="uslugi-klininga/uborka-sanuzlov-vannyh-i-tualetov/index.html" class="ttl">Уборка
+                                href="/uslugi-klininga/uborka-sanuzlov-vannyh-i-tualetov/" class="ttl">Уборка
                                 ванной</a>
                             <span class="price">
                            от 150 руб. </span>
@@ -632,14 +633,14 @@
                             <img width="270" height="200"
                                  src="libs/uploads/2018/09/484446755_w0_h0_uborka_ofisa-270x200.jpg"
                                  class="attachment-svc size-svc wp-post-image" alt="" decoding="async" /> <a
-                                href="uslugi-klininga/uborka-ofisov/index.html" class="ttl">Уборка офиса</a>
+                                href="/uslugi-klininga/uborka-ofisov/" class="ttl">Уборка офиса</a>
                             <span class="price">
                            от 1600 руб. </span>
                         </div>
                         <div class="article">
                             <img width="270" height="200" src="libs/uploads/2018/09/2-270x200.jpg"
                                  class="attachment-svc size-svc wp-post-image" alt="" decoding="async" /> <a
-                                href="uslugi-klininga/uborka-kvartir/index.html" class="ttl">Уборка квартиры</a>
+                                href="/uslugi-klininga/uborka-kvartir/" class="ttl">Уборка квартиры</a>
                             <span class="price">
                            от 1600 руб. </span>
                         </div>
@@ -655,7 +656,7 @@
                             <img width="270" height="200"
                                  src="libs/uploads/2018/09/%d0%92%d1%8b%d0%bd%d0%be%d1%81-%d0%bc%d1%83%d1%81%d0%be%d1%80%d0%b0-270x200.jpg"
                                  class="attachment-svc size-svc wp-post-image" alt="" decoding="async" /> <a
-                                href="uslugi-klininga/vynos-musora/index.html" class="ttl">Вынос мусора</a>
+                                href="/uslugi-klininga/vynos-musora/" class="ttl">Вынос мусора</a>
                             <span class="price">
                            от 250 руб. </span>
                         </div>
@@ -663,7 +664,7 @@
                             <img width="270" height="200"
                                  src="libs/uploads/2018/09/%d1%87%d0%b8%d1%81%d1%82%d0%ba%d0%b0-270x200.jpg"
                                  class="attachment-svc size-svc wp-post-image" alt="" decoding="async" /> <a
-                                href="zhena-na-chas/chistka-zhalyuzi/index.html" class="ttl">Чистка жалюзи</a>
+                                href="/zhena-na-chas/chistka-zhalyuzi/" class="ttl">Чистка жалюзи</a>
                             <span class="price">
                            от 1600 руб. </span>
                         </div>
