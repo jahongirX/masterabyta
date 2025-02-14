@@ -450,7 +450,7 @@ class SiteController extends Controller
             if ($permalink == 'category/articles'){
                 $query = News::find();
                 $pagination = new Pagination([
-                    'defaultPageSize' => 10, // Har bir sahifada 10 ta yangilik
+                    'defaultPageSize' => 10,
                     'totalCount' => $query->count(),
                 ]);
                 $news = $query->offset($pagination->offset)
@@ -477,7 +477,13 @@ class SiteController extends Controller
     public function actionSearch($s = null)
     {
         if (!empty($s) || $s === '0') {
-            $result = Searchindex::find()->where(['like', 'text', $s])->andWhere(['page_visible' => 1])->orderBy(['page_id' => SORT_ASC])->asArray()->all();
+            $result = Searchindex::find()
+                ->where(['like', 'LOWER(text)', mb_strtolower($s)])
+                ->andWhere(['page_visible' => 1])
+                ->orderBy(['page_id' => SORT_ASC])
+                ->asArray()
+                ->all();
+
         } else {
             throw new \yii\web\HttpException(400, 'Введите поисковой запрос.');
         }

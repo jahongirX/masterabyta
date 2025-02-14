@@ -60,8 +60,7 @@ AppAsset::register($this);
     <![endif]-->
 </head>
 <body id="top">
-
-<?= \app\helpers\CustomHelper::custom_get_page_script(3) ?>
+<?//= \app\helpers\CustomHelper::custom_get_page_script(3) ?>
 
 <?php $this->beginBody() ?>
 
@@ -69,7 +68,7 @@ AppAsset::register($this);
 
 <?php $this->endBody() ?>
 
-<?= \app\helpers\CustomHelper::custom_get_page_script(4) ?>
+<?//= \app\helpers\CustomHelper::custom_get_page_script(4) ?>
 
 </body>
 </html>

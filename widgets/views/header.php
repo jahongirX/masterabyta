@@ -57,7 +57,7 @@
                 <a href="<?=\yii\helpers\Url::home()?>" class="logo display-block"><img src="/libs/res/logo.png" alt="header logo"></a>
             </div>
             <div class="newhead-middle-col newhead-middle-col-2">
-                <form method="get" id="searchform" action="https://masterabyta.ru/" class="h320">
+                <form method="get" id="searchform" action="<?=\yii\helpers\Url::to(['/search/'])?>" class="h320">
                     <input type="text" name="s" placeholder="Поиск...">
                     <input type="submit" value="search">
                 </form>
